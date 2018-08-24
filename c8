@@ -1,0 +1,16 @@
+function copyMachine(arr, num) {
+  let newArr = [];
+  while (num >= 1) {
+    // change code below this line
+newArr.push([...arr]);
+    // change code above this line
+    num--;
+  }
+  return newArr;
+}
+
+// change code here to test different cases:
+console.log(copyMachine([true, false, true], 2));
+
+//The spread operator that we covered in a previous section of the JS DS & A Track is useful for copying arrays
+//Slice can do this, but the spread operator does it with less code and greater readability
