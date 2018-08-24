@@ -1,0 +1,17 @@
+let foods = {
+  apples: 25,
+  oranges: 32,
+  plums: 28
+};
+
+// change code below this line
+foods.bananas = 13;
+foods['grapes'] = 35;
+foods.strawberries = 27;
+// change code above this line
+
+console.log(foods);
+
+//Objects are made up of key-value pairs
+//You can pass in a variable when creating or setting a property using bracket notation
+//OR you can just do what we did here and create new properties using strings in bracket notation or just using dot notation
