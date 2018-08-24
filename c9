@@ -1,0 +1,10 @@
+function spreadOut() {
+  let fragment = ['to', 'code'];
+  let sentence = ['learning', ...fragment, 'is', 'fun']; // change this line
+  return sentence;
+}
+
+// do not change code below this line
+console.log(spreadOut());
+
+//The spread operator makes it possible to insert arrays at specific indexes into other arrays with very little code
