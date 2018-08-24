@@ -1,0 +1,11 @@
+function popShift(arr) {
+  let popped = arr.pop(); // change this line
+  let shifted = arr.shift(); // change this line
+  return [shifted, popped];
+}
+
+// do not change code below this line
+console.log(popShift(['challenge', 'is', 'not', 'complete']));
+
+//The '.pop()' and '.shift()' methods are functional opposites of their counterparts, '.push()' and '.unshift()'
+//The MAIN difference is that Pop and Shift don't accept arguments, because they only modify 1 element at a time
