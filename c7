@@ -1,0 +1,11 @@
+function forecast(arr) {
+  // change code below this line
+  
+  return arr.slice(2,4);
+}
+
+// do not change code below this line
+console.log(forecast(['cold', 'rainy', 'warm', 'sunny', 'cool', 'thunderstorms']));
+
+//Slice doesn't modify the array it extracts from
+//It just copies whatever is in between Argument 1 (start index) and Argument 2 (end index, doesn't include the element at this index)
