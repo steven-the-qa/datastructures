@@ -1,0 +1,16 @@
+function quickCheck(arr, elem) {
+  // change code below this line
+if (arr.indexOf(elem) != -1){
+  return true
+}
+else { return false }
+  // change code above this line
+}
+
+// change code here to test different cases:
+console.log(quickCheck(['squash', 'onions', 'shallots'], 'mushrooms'));
+
+//This algorithm checks for an element at a certain index of an array passed to the function
+//IndexOf is used to check an array for an element. 
+//If it doesn't exist, IndexOf returns -1
+//If it DOES, it returns the index
