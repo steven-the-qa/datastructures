@@ -1,0 +1,19 @@
+function filteredArray(arr, elem) {
+  let newArr = [];
+  // change code below this line
+for (let i = 0; i < arr.length; i++){
+  if (arr[i].indexOf(elem) == -1){
+   newArr.push(arr[i]);
+  }
+  }
+  // change code above this line
+  return newArr;
+}
+
+// change code here to test different cases:
+console.log(filteredArray([[3, 2, 3], [1, 6, 3], [3, 13, 26], [19, 3, 9]], 3));
+
+//Javascript has many array methods like '.filter()', '.map()', and '.forEach()', but often all you need is a simple 'for' loop
+//This for loop filters the passed array 'arr' for any nested arrays containing 'elem', and returns a new array without those elements
+//All my code does is ask each nested array for its index of the element
+//If the nested array says it doesn't have that element indexed, I push it to the new array that the function will return
