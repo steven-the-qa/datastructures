@@ -1,0 +1,17 @@
+function sumOfTen(arr) {
+  // change code below this line
+  arr.sort();
+  let newArr = arr.splice(0,4);
+  // change code above this line
+  return arr.reduce((a, b) => a + b);
+}
+
+// do not change code below this line
+console.log(sumOfTen([2, 5, 1, 5, 2, 1]));
+
+//The '.splice()' method takes 3 arguments, but this challenge focuses on the first 2
+//Argument 1 is the index where you start removing elements
+//Argument 2 is the number of consecutive elements to remove
+//Splice takes these elements out of the array, modifying that array in the process but ALSO returning the removed elements in a new array
+
+//I just used the '.sort()' method to make this challenge easier. Not sure if there was a different way to do it with only Splice tho
