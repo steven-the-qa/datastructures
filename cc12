@@ -1,0 +1,9 @@
+let myNestedArray = [
+  // change code below this line
+  ['unshift', ['loop', ['concat', ['mutate', 1327.98, 'deepest', 'splice', 'slice', 'push'],'deeper', false, true, 'spread', 'array'],'deep', 'shift', 6, 7, 1000, 'method'],false, 1, 2, 3, 'complex', 'nested']
+  // change code above this line
+];
+
+//This array is 5 levels deep
+//The multi-dimensional array is a complex data structure that is actually very common with large sets of data
+//It helps to understand bracket notation well when working with these complex arrays
