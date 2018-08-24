@@ -1,0 +1,7 @@
+let myArray = ["a", "b", "c", "d"];
+// change code below this line
+myArray[1] = "BEES";
+//change code above this line
+console.log(myArray);
+
+//You can set items in an array by accessing their index
