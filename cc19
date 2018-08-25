@@ -1,0 +1,29 @@
+let users = {
+  Alan: {
+    age: 27,
+    online: false
+  },
+  Jeff: {
+    age: 32,
+    online: true
+  },
+  Sarah: {
+    age: 48,
+    online: false
+  },
+  Ryan: {
+    age: 19,
+    online: true
+  }
+};
+
+function getArrayOfUsers(obj) {
+  // change code below this line
+return Object.keys(obj);
+  // change code above this line
+}
+
+console.log(getArrayOfUsers(users));
+
+//The 'Object.keys()' method returns an array of all the passed-in object's keys!
+//The keys will be in no particular order, so you'll have to sort them with a separate function if you need them in a particular order
